@@ -1,0 +1,5 @@
+/target
+# Don't publish Workflow until it's done (skill issue)
+/.github
+# Also, no lockfile!
+*lock*

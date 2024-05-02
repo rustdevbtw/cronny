@@ -1,0 +1,11 @@
+[package]
+name = "cronny"
+version = "0.1.0"
+edition = "2021"
+license = "Apache-2.0"
+license-file = "./LICENSE"
+
+[dependencies]
+chrono = "0.4.38"
+cron = "0.12.1"
+tokio = { version = "1.37.0", features = ["full"] }
